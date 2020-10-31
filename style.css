@@ -1,0 +1,337 @@
+span{
+    color: rgb(137, 196, 211);
+    margin-left: -20px;
+}
+::marker{
+    color: azure;
+}
+.mr-sm-2{
+   border-radius: 20px;
+   width: 200px;
+
+}
+
+input{
+   margin-left: 250px;
+}
+.dropdown-toggle{
+    margin-top: -23px;
+    
+}
+.create{
+    margin-right: -40px;
+}
+.search{
+    border: hidden;
+}
+.beg{
+    background-image: url(./img2.jpg);
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+    margin-left: 60px;
+    z-index: 0;
+}
+h1{
+    color: white;
+    padding: 20% 20%;
+    padding-bottom: 0;
+}
+h6{
+    color: white;
+    margin-left:20%;
+}
+.upper,.drop{
+    display: none;
+}
+.beg::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+
+.left, #row, .up{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+}
+.in{
+    margin: 0px 20px;
+}
+.sub{
+    margin: 30px 150px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.small{
+    font-size: 15px;
+    margin: 1px;
+    color: black;
+}
+.le{
+    float: right;
+    height: 45px;
+    background-color: rgb(184, 170, 170);
+}
+.grp, .arrow{
+    display: none;
+}
+.eye{
+    float: right;
+    margin: 20px;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.height{
+   
+    font-size: 20px;
+    margin-top: 10px;
+}
+.hidden{
+    padding-right: 400px;
+}
+.mg{
+    width: 20px;
+    height: 20px;
+}
+.input-group{
+    width: 200px;
+    padding-right: 10px;
+}
+.join{
+    
+ height: 40px;
+
+}
+.right{
+    float: right;
+   
+}
+.pad{
+    margin:10px ;
+    margin-left: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    height: 80%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.see{
+    float: right;
+}
+.card{
+    width: 65%;
+    box-shadow: 0px 0px 1px 1px black;
+    margin-bottom: -30px;
+    margin-bottom: 30px;
+    
+}
+
+.mobile{
+    display: none;
+}
+
+
+
+@media (max-width: 1130px){
+    .card{
+        width: 60%;
+    }
+    .right{
+        margin-right: -50px;
+    }
+    .hidden{
+        display: none;
+    }
+    h1{
+        color: white;
+        padding: 25% 20%;
+        padding-bottom: 0;
+    }
+    h6{
+        color: white;
+        margin-left:20%;
+    }
+    
+   
+}
+@media (max-width: 1053px){
+    .card{
+        width: 60%;
+    }
+    .right{
+        margin-right: -80px;
+        width: 50%;
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 576px) { 
+    .card{
+        width: 100%;
+    }
+    .right{
+        margin-right: 0px;
+    }
+    .right,.left{
+        display: none;
+    }
+    .hidden{
+        padding-right: 0px;
+    }
+    .height{
+        width: 200px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .small{
+        font-size: 10px;
+    }
+    .view{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+        padding: 150px 0px;
+        padding-bottom: 0px;
+        margin-left: 30px;
+    }
+    h6{ 
+        font-size: 10px;
+        margin-left: 30px;
+        padding-bottom: 20px;
+    }
+    .sub{
+        margin: 20px 20px;
+    }
+    .beg{
+        margin-left: 0px;
+        height: 70%;
+        width: 100%;
+    }
+    .eye{
+        font-size: 10px;
+       margin-right: 140px;
+       margin-top: -10px;
+       color: black;
+
+        
+    }
+   
+      
+    
+    .e{
+        display: none;
+        
+    }
+    .search{
+        float: left;
+    }
+    
+
+.mr-sm-2 {
+    border-radius: 20px;
+    width: 200px;
+}
+.form-control{
+    margin-left: 0px;
+}
+.dropdown-toggle{
+    margin-top: 0px;
+}
+.navbar-toggler-icon{
+    margin-right: -20px;
+    background-color: rgb(43, 36, 36) ;
+}
+.navbar-toggler{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(43, 36, 36);
+    margin-left: 50px;
+}
+.upper,.drop{
+    display: block;
+}
+ .upper{
+     border-radius: 50%;
+     background-color: black;
+     margin: 0;
+     margin-left: 10px;
+ }   
+ .drop{
+     margin-top: -20px;
+ }
+
+ .grp{
+     float: right;
+     margin: 10px;
+     font-size: 10px;
+     display: block;
+     margin-top: -30px;
+ }
+ .arrow{
+     margin: 10px ;
+     font-size: 25px;
+     color: white;
+     display: block;
+  }
+  .mobile{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    
+
+}
+.post{
+    margin-left: 20px;
+    font-weight: 500;
+    margin-right: 100px;
+    color: black;
+}
+.filter{
+    width: 100px;
+    float: right;
+    font-size: 10px;
+   
+}
+.z{
+    display: none;
+}
+}
+
+@media (min-width: 600px){
+    .card{
+        width: 60%;
+    }
+    
+}
+
+
+
+
+
+
+
+
